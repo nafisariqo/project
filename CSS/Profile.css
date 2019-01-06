@@ -1,0 +1,91 @@
+body {
+     background-image: url('../Image/p4.png');
+	 background-size: cover;
+	 background-attachment: fixed; 
+}
+
+.container {
+    position: center;
+}
+
+img { 
+    width: 19%;
+    height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+	font-size: 19px;
+	font-family: Tekton Pro;
+	color: #1D64AA;
+	text-align: center;
+}
+	
+
+* {margin:0; padding:0;}
+	
+.navbar {
+	float: left;
+	background: #1E90FF	;
+	width: 100%;
+	font-family: Future TimeSplitters;
+	font-size: 30px;
+}
+
+footer{	
+	background: #4682B4; 
+	padding: 40px; 
+	height: 80px;
+}
+
+.navbar li {
+   float: left;
+   list-style: none;
+}
+
+.navbar li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+}
+.navbar li a:hover {
+	background: white;
+	color: #E22761;
+}
+
+.center ul{
+	width: -moz-fit-content;
+	width: -webkit-fit-content;
+	width: fit-content;
+	margin: auto;
+}
+
+#test{
+	text-align: center;
+	font-weight: bold;
+	font-family:Geometr706 BlkCn BT;
+	font-size: 17px;
+	color:#ffffff;
+}
+	
+#test2{
+	text-align: left;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	font-family:Geometr706 BlkCn BT;
+	font-size: 16px;
+	color:#ffffff
+}
+
+#konek{
+	margin-top: 17px; 
+	margin-right: 20px; 
+	float: right;
+	font-family:Geometr706 BlkCn BT;
+	font-size:20px;
+	color:white;
+}
+

@@ -1,0 +1,112 @@
+body {
+     background-image: url('../Image/bg4.png');
+	 background-size: cover;
+	 background-attachment: fixed; 
+}
+
+.container {
+    position: center;
+}
+
+img { 
+    width: 24%;
+    height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+* {margin:0; padding:0;}
+
+	li{
+	font-family: gisha;
+	font-size: 15px;
+	margin-left: 55px;}
+	
+	table{
+	position: relative; 
+	left: 200px;
+	top: 30px;
+	width: 900px;
+	height: 304px;
+	border: 2px solid gray;
+	border-collapse: collapse;}
+	
+	th{
+	font-size: 22px;
+	text-align: center;
+	padding-top: 3px;
+	background-color: #b4b4b4;
+	color: black;}
+	
+	td{
+	font-size: 16px;
+	border: 1px solid gray;
+	padding: 3px;
+	text-align: center;
+	background-color: #ffffff;
+	color: black;}
+	
+	
+.navbar {
+	float: left;
+	background: #1E90FF;
+	width: 100%;
+} 
+
+.navbar li {
+   float: left;
+   list-style: none;
+}
+
+.navbar li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+}
+
+.navbar li a:hover {
+	background: white;
+	color: #E22761;
+}
+
+.center ul{
+	width: -moz-fit-content;
+	width: -webkit-fit-content;
+	width: fit-content;
+	margin: auto;
+}
+
+footer{	
+	background: #4682B4; 
+	padding: 40px; 
+	height: 80px;
+}
+
+#test{
+	text-align: center;
+	font-weight: bold;
+	font-family:Geometr706 BlkCn BT;
+	font-size: 17px;
+	color:#ffffff;
+}
+	
+#test2{
+	text-align: left;
+	margin-left: 5px;
+	margin-bottom: 10px;
+	font-family:Geometr706 BlkCn BT;
+	font-size: 16px;
+	color:#ffffff
+}
+
+#konek{
+	margin-top: 17px; 
+	margin-right: 20px; 
+	float: right;
+	font-family:Geometr706 BlkCn BT;
+	font-size:20px;
+	color:white;
+}

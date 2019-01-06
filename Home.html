@@ -1,0 +1,112 @@
+<html>
+<head>
+	<title>HOME</title>
+	<link type="text/css" rel="stylesheet" href="CSS/Home.css"/>
+	<link type="text/css" rel="stylesheet" href="CSS/lightbox.min.css"/>
+	<script type="text/javascript" src="js/lightbox-plus-jquery.min.js"></script>
+	
+</head>
+<body>
+
+	<div class="navbar center">
+	<ul>
+       <li><a href="Home.html">Home</a></li>
+       <li><a href="Profile.html">Profile</a></li>
+       <li><a href="Facilities.html">Facilities</a></li>
+	   <li><a href="Enrollment.html">Enrollment</a></li>
+    </ul>
+	</div>
+	
+	<header>
+	<img class="mySlides" src="Image/banner2.png" style="width:1366px; height:460px">
+	<img class="mySlides" src="Image/banner3.png" style="width:1366px; height:460px">
+	<img class="mySlides" src="Image/banner4.png" style="width:1366px; height:460px">
+	<img class="mySlides" src="Image/banner5.png" style="width:1366px; height:460px">
+	<img class="mySlides" src="Image/banner6.png" style="width:1366px; height:460px">
+	</header>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000);
+}
+</script>
+<table><tr>
+		<td>
+			<div class="polaroid1">
+				<img src="program/app.jpg" alt="App" style="width:360px; height:250px">
+			<div class="container">
+				<p style="font-family: Century Schoolbook; font-size: 16px">
+				The Application class will teach you all the things you need to know about making an app, from the simple one into the expert one. 
+				<br>Also, you will know a lot of programming language and not only the concept but we love to do the ACTION.
+				<br><br>You will be able to have your own apps and <b>be a young app developer!</b></p></div>
+			</div>
+		</td>
+		<td>
+			<div class="polaroid2">
+				<img src="program/web.jpg" alt="Web" style="width:365px; height:250px">
+			<div class="container">
+				<p style="font-family: Century Schoolbook; font-size: 16px">
+				The Web class will teach you all the things you need to know about making a good and attractive web, that interesting for commerce, education, and many more. 
+				<br>You will learn about making a web from the basic structre to its own design with various kind of software.
+				<br><br>You will be able to have your own website and <b>be a great web developer!</b></p></div>
+		</div>
+		</td>
+		<td>
+			<div class="polaroid3">
+				<img src="program/game.jpg" alt="Game" style="width:350px; height:250px">
+			<div class="container">
+				<p style="font-family: Century Schoolbook; font-size: 16px">
+				The Game class will teach you all the things you need to know about making an entertain, advanced, and fun game to the gamers.
+				<br>You will learn how to create and design your game. You will make your dream come true through your games.
+				<br><br>You will be able to have your own games and <b>be a cool game developer!</b></p></p></div>
+			</div>
+		</td>
+</tr></table>
+<p class="solid">Our Events</p>
+	<div class="gallery">
+		<a href="event/satu.jpg" data-lightbox="mygallery"><img src="event/satu.jpg" alt="Event satu" style="width:200px; height:200px">
+		<a href="event/dua.jpg" data-lightbox="mygallery"><img src="event/dua.jpg" alt="Event dua" style="width:200px; height:200px">
+		<a href="event/tiga.jpg" data-lightbox="mygallery"><img src="event/tiga.jpg" alt="Event tiga" style="width:200px; height:200px">
+		<a href="event/empat.jpg" data-lightbox="mygallery"><img src="event/empat.jpg" alt="Event empat" style="width:200px; height:200px">
+		<a href="event/lima.jpg" data-lightbox="mygallery"><img src="event/lima.jpg" alt="Event lima" style="width:200px; height:200px">
+	</div>
+<p class="solid">Our Gallery</p>
+	<div class="gallery">
+		<a href="gallery/resepsionis.jpg" data-lightbox="mygallery"><img src="gallery/resepsionis.jpg" alt="Recepsionist" style="width:200px; height:200px">
+		<a href="gallery/tempatparkir.jpg" data-lightbox="mygallery"><img src="gallery/tempatparkir.jpg" alt="Parking" style="width:200px; height:200px">
+		<a href="gallery/musholla.jpg" data-lightbox="mygallery"><img src="gallery/musholla.jpg" alt="Musholla" style="width:200px; height:200px">
+		<a href="gallery/kelas1.jpg" data-lightbox="mygallery"><img src="gallery/kelas1.jpg" alt="Class 1" style="width:200px; height:200px">
+		<a href="gallery/kelas2.jpg" data-lightbox="mygallery"><img src="gallery/kelas2.jpg" alt="Class 2" style="width:200px; height:200px">
+		<a href="gallery/diskusi1.jpg" data-lightbox="mygallery"><img src="gallery/diskusi1.jpg" alt="Diskusi room" style="width:200px; height:200px">
+		<a href="gallery/diskusi2.jpg" data-lightbox="mygallery"><img src="gallery/diskusi2.jpg" alt="Diskusi room" style="width:200px; height:200px">
+		<a href="gallery/diskusi3.png" data-lightbox="mygallery"><img src="gallery/diskusi3.png" alt="Diskusi room" style="width:200px; height:200px">
+		<a href="gallery/kegiatan1.jpg" data-lightbox="mygallery"><img src="gallery/kegiatan1.jpg" alt="Activity" style="width:200px; height:200px">
+		<a href="gallery/kegiatan2.jpg" data-lightbox="mygallery"><img src="gallery/kegiatan2.jpg" alt="Activity" style="width:200px; height:200px">
+		<a href="gallery/kegiatan3.jpg" data-lightbox="mygallery"><img src="gallery/kegiatan3.jpg" alt="Activity" style="width:200px; height:200px">
+	</div>
+
+	
+	<footer>
+	<p id="test">&copy Copyright  DJCourse 2019</p>
+	
+			
+	<p id="test2"><b><u>Our Location</b></u><br>
+		Jl. Akses UI No.62 Kelapa Dua Cimanggis Depok 16951<br>
+		Phone. (021) 877 07 205 Fax . (021) 87707205<br>
+		E-mail. DJcourse@gmail.com</p>
+	</footer>
+	
+</body>
+
+</html>
